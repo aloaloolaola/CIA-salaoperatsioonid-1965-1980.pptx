@@ -1,0 +1,16 @@
+INFORMAATIKAOL�MPIAADI III VOOR 1988
+
+1. Antud tasandi kolme punkti koordinaadid. Kontrollida, kas need
+punktid moodustavad t�isunrkse kolmnurga.
+
+2. Antud lause, milles s�nad on kirjutatud suurte ladina t�htedega
+ja eraldatud �he v�i mitme t�hikuga; l�pus punkt. Leida maksimaalne
+s�na pikkus.
+
+3. Antud t�isarvud A(0), A(1), ..., A(5). Leida v�rrandi
+	A(5)x^5 + A(4)x^4 + ... + A(0) = 0
+lahendid, kui on teada, et k�ik lahendid on reaalsed ja t�isarvud.
+
+4. Antud malelaua kahe ruudu t�hised (n�iteks a6 ja c2). Leida
+minimaalne k�ikude arv, mida maleratsu vajab esimeselt ruudult
+teisele liikumiseks.

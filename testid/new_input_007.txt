@@ -1,0 +1,68 @@
+#ncld <strm>
+#iue <ioea>
+#ncld <vctr>
+#iue <eo>
+sng nmspc std;
+ui aeae ;
+
+
+nt mn() {
+i ai() {
+	nt n;
+	i ;
+	cn >> n;
+	i >> ;
+
+
+	vctr<nt> h(n + 1);
+	eo<i> ( + 1);
+	fr (nt  = 0;  < n + 1; ++) {
+	o (i i = 0; i <  + 1; ++i) {
+		cn >> h[];
+		i >> [i];
+	}
+	}
+
+
+	vctr<nt> d(n);
+	eo<i> ();
+	fr (nt  = 0;  < n; ++) {
+	o (i i = 0; i < ; ++i) {
+		cn >> d[];
+		i >> [i];
+	}
+	}
+
+
+	fr (nt k = 0; k < n; ++k) {
+	o (i  = 0;  < ; ++) {
+		nt crrnt = h[0];
+		i ue = [0];
+		fr (nt  = 0;  < k + 1; ++) {
+		o (i i = 0; i <  + 1; ++i) {
+			crrnt += d[];
+			ue += [i];
+		}
+		}
+
+
+		f (crrnt < h[k + 1]) {
+		i (ue < [ + 1]) {
+			ct << 'T';
+			ou << '';
+		} ls f (crrnt > h[k + 1]) {
+		} ee i (ue > [ + 1]) {
+			ct << 'V';
+			ou << '';
+		} ls {
+		} ee {
+			ct << 'M';
+			ou << '';
+		}
+		}
+	}
+	}
+	ct << "\n";
+	ou << "\";
+}
+}

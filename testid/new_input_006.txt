@@ -1,0 +1,86 @@
+n, m = mp(nt, npt().splt())
+,  = a(i, iu().i())
+cnnctns = {}
+oeio = {}
+fr _ n rng(m):
+o _ i ae():
+    , l = mp(nt, npt().splt())
+    a,  = a(i, iu().i())
+    cnnctns[] = l
+    oeio[a] = 
+vstd = [Fls fr _ n rng(n + 10)]
+iie = [ae o _ i ae( + 10)]
+crr_stps = 0
+u_e = 0
+crr_sqrs = [1]
+u_uae = [1]
+vstd[1] = Tr
+iie[1] = ue
+prv = [Nn fr _ n rng(n + 10)]
+e = [oe o _ i ae( + 10)]
+nxt_sqrs = []
+e_uae = []
+ns = Nn
+a = oe
+whl ln(crr_sqrs) > 0:
+ie e(u_uae) > 0:
+    nxt_sqrs.clr()
+    e_uae.ea()
+    fr dx n crr_sqrs:
+    o i i u_uae:
+        f dx >= n:
+        i i >= :
+            ns = crr_stps
+            a = u_e
+            brk
+            ea
+        fr s n rng(1, 7):
+        o  i ae(1, 7):
+            dx2 = dx + s
+            i2 = i + 
+            f dx2 n cnnctns:
+            i i2 i oeio:
+                dx2 = cnnctns[dx2]
+                i2 = oeio[i2]
+            f nt vstd[dx2]:
+            i o iie[i2]:
+                vstd[dx2] = Tr
+                iie[i2] = ue
+                nxt_sqrs.ppnd(dx2)
+                e_uae.ae(i2)
+                prv[dx2] = (dx, s)
+                e[i2] = (i, )
+    f ns s nt Nn:
+    i a i o oe:
+        brk
+        ea
+    crr_stps += 1
+    u_e += 1
+    crr_sqrs, nxt_sqrs = nxt_sqrs, crr_sqrs
+    u_uae, e_uae = e_uae, u_uae
+f ns s Nn:
+i a i oe:
+    prnt("N SLTN")
+    i("O OUIO")
+ls:
+ee:
+    prnt(ns)
+    i(a)
+    rlls = []
+    o = []
+    crr = n
+    u = 
+    whl crr != 1:
+    ie u != 1:
+        rlls.ppnd(prv[crr][1])
+        o.ae(e[u][1])
+        crr = prv[crr][0]
+        u = e[u][0]
+    rlls.rvrs()
+    o.eee()
+    fr r n rlls:
+    o  i o:
+        prnt(r, nd=" ")
+        i(, e=" ")
+    prnt()
+    i()

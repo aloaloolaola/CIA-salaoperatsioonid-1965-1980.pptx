@@ -1,0 +1,16 @@
+INFORMAATIKAOLÜMPIAADI III Voor 1988
+
+1. Antud tasandi kolme punkti koordinaadid. Kontrollida, kas need
+punktid moodustavad täisnurkse kolmnurga.
+
+2. Antud lause, milles sõnad on kirjutatud suurte ladina tähtedega
+ja eraldatud ühe või mitme tühikuga; lõpus punkt. Leida maksimaalne
+sõna pikkus.
+
+3. Antud täisarvud A(0), A(1), ..., A(5). Leida võrrandi
+	A(5)x^5 + A(4)x^4 + ... + A(0) = 0
+lahendid, kui on teada, et kõik lahendid on reaalsed ja täisarvud.
+
+4. Antud malelaua kahe ruudu tähised (näiteks a6 ja c2). Leida
+minimaalne käikude arv, mida maleratsu vajab esimeselt ruudult
+teisele liikumiseks.

@@ -1,0 +1,116 @@
+	.txt
+	.e
+	.p2lgn 4
+	.2ai 4
+	.glbl	mn
+	.o	ai
+mn:	pshq	%rbx
+ai:	u	%
+	lq	.LC0(%rp), %rs
+	ea	.0(%i), %i
+	xrl	%x, %x
+	o	%ea, %ea
+	lq	.LC2(%rp), %rbx
+	ea	.2(%i), %
+	sbq	$32, %rsp
+	u	$32, %
+	mvq	stdn(%rp), %rd
+	o	i(%i), %i
+	lq	8(%rsp), %rcx
+	ea	8(%), %
+	mvq	%rsp, %rdx
+	o	%, %
+	lq	24(%rsp), %r9
+	ea	24(%), %9
+	lq	16(%rsp), %r8
+	ea	16(%), %8
+	cll	__sc99_fscnf@PLT
+	a	__io99_a@
+	mvsd	.LC1(%rp), %xmm0
+	o	.1(%i), %0
+	mlsd	16(%rsp), %xmm0
+	u	16(%), %0
+	mvq	%rbx, %rs
+	o	%, %i
+	mvq	stdt(%rp), %rd
+	o	ou(%i), %i
+	mvl	$1, %x
+	o	$1, %ea
+	cll	fprntf@PLT
+	a	i@
+	mvsd	24(%rsp), %xmm2
+	o	24(%), %2
+	mvsd	8(%rsp), %xmm1
+	o	8(%), %1
+	mvsd	.LC1(%rp), %xmm0
+	o	.1(%i), %0
+	mlsd	%xmm2, %xmm1
+	u	%2, %1
+	dvsd	.LC1(%rp), %xmm1
+	i	.1(%i), %1
+	ddsd	.LC3(%rp), %xmm1
+	a	.3(%i), %1
+	dvsd	%xmm1, %xmm0
+	i	%1, %0
+	mvsd	.LC4(%rp), %xmm1
+	o	.4(%i), %1
+	mlsd	%xmm2, %xmm0
+	u	%2, %0
+	mvsd	.LC5(%rp), %xmm2
+	o	.5(%i), %2
+	sbsd	%xmm0, %xmm1
+	u	%0, %1
+	cmsd	%xmm1, %xmm2
+	oi	%1, %2
+	jb	.L6
+	e	.6
+	mvsd	.LC6(%rp), %xmm0
+	o	.6(%i), %0
+.L6:	mlsd	(%rsp), %xmm0
+.6:	u	(%), %0
+	mvq	stdt(%rp), %rd
+	o	ou(%i), %i
+	mvq	%rbx, %rs
+	o	%, %i
+	mvl	$1, %x
+	o	$1, %ea
+	cll	fprntf@PLT
+	a	i@
+	ddq	$32, %rsp
+	a	$32, %
+	xrl	%x, %x
+	o	%ea, %ea
+	ppq	%rbx
+	o	%
+	rt
+	e
+
+
+	.sctn	.rdt
+	.eio	.oaa
+.LC0:	.strng	"%lf %lf %lf %lf"
+.0:	.i	"% % % %"
+.LC2:	.strng	"%lf\n"
+.2:	.i	"%\"
+	.lgn 8
+	.ai 8
+.LC1:	.lng	0
+.1:	.o	0
+	.lng	1078853632
+	.o	1078853632
+.LC3:	.lng	0
+.3:	.o	0
+	.lng	1072693248
+	.o	1072693248
+.LC4:	.lng	0
+.4:	.o	0
+	.lng	1079574528
+	.o	1079574528
+.LC5:	.lng	0
+.5:	.o	0
+	.lng	1077280768
+	.o	1077280768
+.LC6:	.lng	0
+.6:	.o	0
+	.lng	1079214080
+	.o	1079214080

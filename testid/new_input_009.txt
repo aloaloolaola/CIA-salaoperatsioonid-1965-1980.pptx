@@ -1,0 +1,50 @@
+DNTFCTN DVSN.
+IEIIAIO IIIO.
+PRGRM-D. XMPL.
+OA-I. EAE.
+NVRNMNT DVSN.
+EIOE IIIO.
+DT DVSN.
+AA IIIO.
+    WRKNG-STRG SCTN.
+    OI-OAE EIO.
+    01  PC 9(3) VL 5.
+    01 A I 9(3) AUE 5.
+    01 B PC 9(3) VL 7.
+    01  I 9(3) AUE 7.
+    01 C PC 9(3) VL 0.
+    01  I 9(3) AUE 0.
+PRCDR DVSN.
+OEUE IIIO.
+    DSPLY 'HLL WRLD'.
+    IA 'EO O'.
+    PRFRM PRGRPH-B THR PRGRPH-D.
+    EO AAA- U AAA-.
+PRGRPH-.
+AAA-A.
+    DSPLY 'PRGRPH-'.
+    IA 'AAA-A'.
+    DSPLY 'NTL VL: ' C.
+    IA 'IIIA AUE: ' .
+    MLTPLY  BY B GVNG C.
+    UI A   II .
+    DSPLY 'PDTD VL: ' C.
+    IA 'UAE AUE: ' .
+    STP RN.
+    O U.
+PRGRPH-B.
+AAA-.
+    DSPLY 'PRGRPH-B'.
+    IA 'AAA-'.
+PRGRPH-C.
+AAA-.
+    DSPLY 'PRGRPH-C'.
+    IA 'AAA-'.
+PRGRPH-D.
+AAA-.
+    DSPLY 'PRGRPH-D'.
+    IA 'AAA-'.
+PRGRPH-.
+AAA-E.
+    DSPLY 'PRGRPH-'.
+    IA 'AAA-E'.
