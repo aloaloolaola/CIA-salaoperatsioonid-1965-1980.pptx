@@ -1,4 +1,4 @@
-INFORMAATIKAOLÜMPIAADI III Voor 1988
+INFORMAATIKAOLÜMPIAADI III VOOR 1988
 
 1. Antud tasandi kolme punkti koordinaadid. Kontrollida, kas need
 punktid moodustavad täisnurkse kolmnurga.
