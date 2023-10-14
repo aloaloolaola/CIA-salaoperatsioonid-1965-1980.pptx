@@ -1,4 +1,4 @@
-lemmad_file = open("testid/wordlist.txt", "r", encoding="iso-8859-13")
+lemmad_file = open("testid/wordlist.txt", "r", encoding="utf-8")
 lemmad = [line.strip().lower().replace("|", "") for line in lemmad_file]
 lemmad_file.close()
 
@@ -67,7 +67,7 @@ def get_vowels(string: str) -> str:
     return "".join([char for char in string if char in "aeiouõäöü"])
 
 def get_consonants(string: str) -> str:
-    return "".join([char for char in string if char.isalpha() and not char in "aeiouõäöü"])
+    return "".join([char for char in string if char.isalpha() and not char in "aeiouõäöüáóæ"])
 
 def fix_file(index: int, encoding: str):
     lines: list[str] = []
@@ -90,14 +90,14 @@ def fix_file(index: int, encoding: str):
             word_1 = words_1[j]
             word_2 = words_2[j]
             new_line += purify_word(word_1, word_2) + " "
-        new_line = new_line.strip(" ")
+        new_line = new_line.strip(" ").upper()
         new_file.write(new_line)
         print("line " + str(i) + " comlete")
         
     new_file.close()
     file.close()
 
-fix_file(5, "utf-8")
+fix_file(9, "utf-8")
 
 #0 utf-8
 #1 iso-8859-13

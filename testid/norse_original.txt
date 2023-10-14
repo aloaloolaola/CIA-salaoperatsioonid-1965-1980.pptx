@@ -1,0 +1,207 @@
+1 	I 	ek
+2 	you (singular) 	þú
+3 	he 	hann
+4 	we 	vér
+5 	you (plural) 	þér
+6 	they 	þeir
+7 	this 	sjá, þessi
+8 	that 	sá
+9 	here 	hér
+10 	there 	þar
+11 	who 	hvar
+12 	what 	hvat
+13 	where 	hvar
+14 	when 	hvenær
+15 	how 	hvé
+16 	not 	eigi, ekki
+17 	all 	allr
+18 	many 	margr
+19 	some 	nǫkkurr
+20 	few 	fár
+21 	other 	annarr
+22 	one 	einn
+23 	two 	tveir
+24 	three 	þrír
+25 	four 	fjórir
+26 	five 	fimm
+27 	big 	stórr
+28 	long 	langr
+29 	wide 	víðr
+30 	thick 	þykkr
+31 	heavy 	þungr
+32 	small 	lítill, smalr
+33 	short 	stuttr, kortr
+34 	narrow 	mjór, þrǫngr
+35 	thin 	þunnr
+36 	woman 	kona, kvinna
+37 	man (adult male) 	karl, kall
+38 	man (human being) 	maðr, menskr (late)
+39 	child 	barn
+40 	wife 	kona, kván, kvæn
+41 	husband 	bóndi
+42 	mother 	móðir
+43 	father 	faðir
+44 	animal 	dýr, djór
+45 	fish 	fiskr
+46 	bird 	fogl, fugl (late)
+47 	dog 	hundr
+48 	louse 	lús
+49 	snake 	ormr, snókr, snákr (poetic)
+50 	worm 	ormr, maðkr
+51 	tree 	tré
+52 	forest 	skógr
+53 	stick 	kvistr, stafr, pinni (late)
+54 	fruit 	ávǫxtr, fruktr (late)
+55 	seed 	fræ
+56 	leaf 	lauf
+57 	root 	rót
+58 	bark (of a tree) 	bǫrkr
+59 	flower 	blóm
+60 	grass 	gras
+61 	rope 	reip, tog, festr
+62 	skin 	húð
+63 	meat 	kjǫt
+64 	blood 	blóð
+65 	bone 	bein
+66 	fat (noun) 	mǫrr
+67 	egg 	egg
+68 	horn 	horn
+69 	tail 	hali
+70 	feather 	fjǫðr
+71 	hair 	hár
+72 	head 	hǫfuð
+73 	ear 	eyra
+74 	eye 	auga
+75 	nose 	nef
+76 	mouth 	munnr
+77 	tooth 	tǫnn
+78 	tongue (organ) 	tunga
+79 	fingernail 	nagl
+80 	foot 	fótr
+81 	leg 	leggr
+82 	knee 	kné
+83 	hand 	hǫnd
+84 	wing 	vængr
+85 	belly 	magi
+86 	guts 	þarmar
+87 	neck 	hals
+88 	back 	bak
+89 	breast 	brjóst
+90 	heart 	hjarta
+91 	liver 	lifr
+92 	to drink 	drekka
+93 	to eat 	eta
+94 	to bite 	bíta
+95 	to suck 	súga
+96 	to spit 	spýta
+97 	to vomit 	spýja
+98 	to blow 	blása
+99 	to breathe 	anda
+100 	to laugh 	hlæja
+101 	to see 	sjá
+102 	to hear 	heyra
+103 	to know 	vita
+104 	to think 	þekkja
+105 	to smell 	þefa
+106 	to fear 	ugga
+107 	to sleep 	sofa
+108 	to live 	lifa
+109 	to die 	deyja
+110 	to kill 	drepa
+111 	to fight 	hals
+112 	to hunt 	bak
+113 	to hit 	berja
+114 	to cut 	skera
+115 	to split 	kljúfa
+116 	to stab 	stinga
+117 	to scratch 	kleyja (uncertain, related to kló)
+118 	to dig 	grafa
+119 	to swim 	svimma
+120 	to fly 	fljúga
+121 	to walk 	ganga
+122 	to come 	koma
+123 	to lie (as in a bed) 	liggja
+124 	to sit 	sitja
+125 	to stand 	standa
+126 	to turn (intransitive) 	hverfa, vinda, snúa
+127 	to fall 	falla
+128 	to give 	gefa
+129 	to hold 	halda
+130 	to squeeze 	þrýsta
+131 	to rub 	gniða, gnúa
+132 	to wash 	vaska, þvá
+133 	to wipe 	strjúka, þurka
+134 	to pull 	draga
+135 	to push 	hrinda, bægja, ýta
+136 	to throw 	kasta
+137 	to tie 	binda
+138 	to sew 	sýja
+139 	to count 	telja
+140 	to say 	segja
+141 	to sing 	syngva, syngja
+142 	to play 	leika
+143 	to float 	fljóta
+144 	to flow 	streyma
+145 	to freeze 	frjósa, kala
+146 	to swell 	svella
+147 	sun 	sól, sunna (poetic), rǫðull (poetic)
+148 	moon 	tungl, máni (poetic)
+149 	star 	stjarna
+150 	water 	vatn, lǫgr
+151 	rain 	regn
+152 	river 	á, elfr, fljót
+153 	lake 	vatn, lǫgr
+154 	sea 	haf, sær, sjór (late), sjár (late), ægir, lǫgr
+155 	salt 	salt
+156 	stone 	steinn
+157 	sand 	sandr
+158 	dust 	dust
+159 	earth 	jǫrð
+160 	cloud 	ský
+161 	fog 	þoka
+162 	sky 	himinn
+163 	wind 	vindr
+164 	snow 	snjór
+165 	ice 	íss
+166 	smoke 	reykr
+167 	fire 	eldr, bál
+168 	ash 	aska
+169 	to burn 	brenna
+170 	road 	gata, vegr, leið, braut
+171 	mountain 	fjall
+172 	red 	rauðr
+173 	green 	grœnn
+174 	yellow 	gulr
+175 	white 	hvítr
+176 	black 	svartr
+177 	night 	nótt
+178 	day 	dagr
+179 	year 	ár
+180 	warm 	varmr
+181 	cold 	kaldr
+182 	full 	fullr
+183 	new 	nýr
+184 	old 	gamall
+185 	good 	góðr
+186 	bad 	illr
+187 	rotten 	rotinn
+188 	dirty 	skitinn
+189 	straight 	beinn
+190 	round 	kringlóttr
+191 	sharp (as a knife) 	skarpr
+192 	dull (as a knife) 	sljór, sljár, slær
+193 	smooth 	sléttr
+194 	wet 	vátr, blautr
+195 	dry 	þurr
+196 	correct 	réttr, réttligr
+197 	near 	nær, hjá
+198 	far 	fjarri
+199 	right 	réttr, hœgr
+200 	left 	vinstri
+201 	at 	á
+202 	in 	í
+203 	with 	með
+204 	and 	ok
+205 	if 	ef
+206 	because 	því at
+207 	name 	nafn

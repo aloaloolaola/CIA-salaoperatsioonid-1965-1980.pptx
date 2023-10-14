@@ -1,0 +1,58 @@
+	.text
+	.p2align 4
+	.globl	main
+main:	pushq	%rbx
+	leaq	.LC0(%rip), %rsi
+	xorl	%eax, %eax
+	leaq	.LC2(%rip), %rbx
+	subq	$32, %rsp
+	movq	stdin(%rip), %rdi
+	leaq	8(%rsp), %rcx
+	movq	%rsp, %rdx
+	leaq	24(%rsp), %r9
+	leaq	16(%rsp), %r8
+	call	__isoc99_fscanf@PLT
+	movsd	.LC1(%rip), %xmm0
+	mulsd	16(%rsp), %xmm0
+	movq	%rbx, %rsi
+	movq	stdout(%rip), %rdi
+	movl	$1, %eax
+	call	fprintf@PLT
+	movsd	24(%rsp), %xmm2
+	movsd	8(%rsp), %xmm1
+	movsd	.LC1(%rip), %xmm0
+	mulsd	%xmm2, %xmm1
+	divsd	.LC1(%rip), %xmm1
+	addsd	.LC3(%rip), %xmm1
+	divsd	%xmm1, %xmm0
+	movsd	.LC4(%rip), %xmm1
+	mulsd	%xmm2, %xmm0
+	movsd	.LC5(%rip), %xmm2
+	subsd	%xmm0, %xmm1
+	comisd	%xmm1, %xmm2
+	jbe	.L6
+	movsd	.LC6(%rip), %xmm0
+.L6:	mulsd	(%rsp), %xmm0
+	movq	stdout(%rip), %rdi
+	movq	%rbx, %rsi
+	movl	$1, %eax
+	call	fprintf@PLT
+	addq	$32, %rsp
+	xorl	%eax, %eax
+	popq	%rbx
+	ret
+
+	.section	.rodata
+.LC0:	.string	"%lf %lf %lf %lf"
+.LC2:	.string	"%lf\n"
+	.align 8
+.LC1:	.long	0
+	.long	1078853632
+.LC3:	.long	0
+	.long	1072693248
+.LC4:	.long	0
+	.long	1079574528
+.LC5:	.long	0
+	.long	1077280768
+.LC6:	.long	0
+	.long	1079214080

@@ -1,0 +1,43 @@
+n, m = map(int, input().split())
+connections = {}
+for _ in range(m):
+    a, l = map(int, input().split())
+    connections[a] = l
+visited = [False for _ in range(n + 10)]
+curr_steps = 0
+curr_squares = [1]
+visited[1] = True
+prev = [None for _ in range(n + 10)]
+next_squares = []
+ans = None
+while len(curr_squares) > 0:
+    next_squares.clear()
+    for idx in curr_squares:
+        if idx >= n:
+            ans = curr_steps
+            break
+        for s in range(1, 7):
+            idx2 = idx + s
+            if idx2 in connections:
+                idx2 = connections[idx2]
+            if not visited[idx2]:
+                visited[idx2] = True
+                next_squares.append(idx2)
+                prev[idx2] = (idx, s)
+    if ans is not None:
+        break
+    curr_steps += 1
+    curr_squares, next_squares = next_squares, curr_squares
+if ans is None:
+    print("NO SOLUTION")
+else:
+    print(ans)
+    rolls = []
+    curr = n
+    while curr != 1:
+        rolls.append(prev[curr][1])
+        curr = prev[curr][0]
+    rolls.reverse()
+    for r in rolls:
+        print(r, end=" ")
+    print()
