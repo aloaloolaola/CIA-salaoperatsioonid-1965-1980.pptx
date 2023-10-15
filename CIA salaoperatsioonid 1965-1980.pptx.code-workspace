@@ -4,5 +4,23 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "C#: nak Debug",
+				"type": "dotnet",
+				"request": "launch",
+				"projectPath": "${workspaceFolder}/nak/nak.csproj"
+			},
+			{
+				"name": "C#: nak",
+				"type": "dotnet",
+				"request": "launch",
+				"projectPath": "${workspaceFolder}/nak/nak.csproj"
+			}
+
+		]
+	}
 }
