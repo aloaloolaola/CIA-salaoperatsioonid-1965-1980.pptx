@@ -1,7 +1,3 @@
-Xr, Yr, Zr = [int(a) for a in input().split(" ")]
-Xs, Ys, Zs = [int(a) for a in input().split(" ")]
-Xm, Ym, Zm = [int(a) for a in input().split(" ")]
-
 class Cuboid:
     def __init__(self, Xr, Yr, Zr, Xs, Ys, Zs, Xm, Ym, Zm):
         self.Xr = Xr
@@ -17,15 +13,15 @@ class Cuboid:
 
 
     def normalise_rotation(self):
-        if Xs == 0: self.rotate(0, 3, 0)
-        elif Xs == Xr: self.rotate(0, 1, 0)
-        elif Ys == 0: self.rotate(1, 0, 0)
-        elif Ys == Yr: self.rotate(3, 0, 0)
-        elif Zs == Zr: self.rotate(2, 0, 0)
+        if self.Xs == 0: self.rotate(0, 3, 0)
+        elif self.Xs == self.Xr: self.rotate(0, 1, 0)
+        elif self.Ys == 0: self.rotate(1, 0, 0)
+        elif self.Ys == self.Yr: self.rotate(3, 0, 0)
+        elif self.Zs == self.Zr: self.rotate(2, 0, 0)
 
-        if Xm == 0: self.rotate(0, 0, 1)
-        elif Ym == Yr: self.rotate(0, 0, 2)
-        elif Xm == Xr: self.rotate(0, 0, 3)
+        if self.Xm == 0: self.rotate(0, 0, 1)
+        elif self.Ym == self.Yr: self.rotate(0, 0, 2)
+        elif self.Xm == self.Xr: self.rotate(0, 0, 3)
 
         return self
 
@@ -74,6 +70,10 @@ class Cuboid:
         return distance
 
 
-cuboid = Cuboid(Xr, Yr, Zr, Xs, Ys, Zs, Xm, Ym, Zm).normalise_rotation()
-#print(cuboid)
-print(cuboid.measure_distance())
+if __name__ == "__main__":
+    Xr, Yr, Zr = [int(a) for a in input().split(" ")]
+    Xs, Ys, Zs = [int(a) for a in input().split(" ")]
+    Xm, Ym, Zm = [int(a) for a in input().split(" ")]
+    cuboid = Cuboid(Xr, Yr, Zr, Xs, Ys, Zs, Xm, Ym, Zm).normalise_rotation()
+    #print(cuboid)
+    print(cuboid.measure_distance())
